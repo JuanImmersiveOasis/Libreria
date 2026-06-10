@@ -30,7 +30,9 @@ public class ControladorPrincipal {
                     System.out.println("Autores - pendiente de implementar");
                     break;
                 case 3:
-                    System.out.println("Géneros - pendiente de implementar");
+                    ControladorGenero controladorGenero =
+                    		new ControladorGenero(servicio);
+                    controladorGenero.iniciar();
                     break;
                 case 4:
                     System.out.println("Editoriales - pendiente de implementar");

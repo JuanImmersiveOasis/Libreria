@@ -7,7 +7,7 @@ import es.juan.biblioteca.vista.VistaPrincipal;
 public class BibliotecaApp {
 
     public static void main(String[] args) {
-        Biblioteca app = new BibliotecaApp();
+        BibliotecaApp app = new BibliotecaApp();
         app.ejecutar();
     }
 
