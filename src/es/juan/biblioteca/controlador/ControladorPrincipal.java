@@ -27,7 +27,9 @@ public class ControladorPrincipal {
                     controladorLibro.iniciar();
                     break;
                 case 2:
-                    System.out.println("Autores - pendiente de implementar");
+                    ControladorAutor controladorAutor =
+                    		new ControladorAutor(servicio);
+                    controladorAutor.iniciar();
                     break;
                 case 3:
                     ControladorGenero controladorGenero =

@@ -7,10 +7,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import es.juan.biblioteca.Conexion;
 import es.juan.biblioteca.modelo.entidad.Editorial;
 import es.juan.biblioteca.modelo.entidad.Genero;
 import es.juan.biblioteca.modelo.entidad.Libro;
+import es.juan.biblioteca.utilidades.Conexion;
 
 public class LibroDAO {
 

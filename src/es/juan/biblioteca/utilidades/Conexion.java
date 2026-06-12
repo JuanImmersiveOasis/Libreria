@@ -1,4 +1,4 @@
-package es.juan.biblioteca;
+package es.juan.biblioteca.utilidades;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
